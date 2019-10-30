@@ -200,6 +200,8 @@ def main():
     plumr_meta = load_plumr_meta(verbose=pedantic)
     update_ext_libs(plumr_meta, add_libs=args.add_libs, 
                     del_libs=args.del_libs, verbose=pedantic)
+    if args.add_libs is not None or args.del_libs is not None:
+        exit()
     
     if args.proj is None:
         project_directory = args.config.parent

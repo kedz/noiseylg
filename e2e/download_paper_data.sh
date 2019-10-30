@@ -24,11 +24,11 @@ downloadfile $BASEGEN_ID base_generators.tar.gz
 #samples
 #https://drive.google.com/file/d/1qb-5BvlOTqstXn2yyNJwT7AqlUj2bkC2/view?usp=sharing
 SAMPLES_ID=1qb-5BvlOTqstXn2yyNJwT7AqlUj2bkC2
-downloadfile $BASEGEN_ID samples.tar.gz
+downloadfile $SAMPLES_ID samples.tar.gz
 
 #mr classifiers
 #https://drive.google.com/file/d/1XTrVdVQ_vKrXEt83qf0m3NfVedRf1ifb/view?usp=sharing
-CLASS_ID=1qb-5BvlOTqstXn2yyNJwT7AqlUj2bkC2
+CLASS_ID=1XTrVdVQ_vKrXEt83qf0m3NfVedRf1ifb
 downloadfile $CLASS_ID base_classifiers.tar.gz
 
 #aug generators
