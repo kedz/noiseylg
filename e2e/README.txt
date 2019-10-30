@@ -11,6 +11,12 @@ Please see the individual instructions for each step below. Alternatively,
 you can download the results of each step that were used in paper.
 See individual sections for download links.
 
+Downloading All Pretrained Models/Data
+======================================
+
+You can download all pretrained models/sample outputs by running:
+
+>> bash download_paper_data.sh
 
 Generating From Training Models
 ===============================
@@ -77,6 +83,9 @@ The lexicalized base models can be found analogously in
 
   base_generators/lex/train/run1/model_checkpoints
 
+To download the base generators used in the paper, download this link:
+    https://drive.google.com/file/d/1aLdcaO9J99UulzR9wozBh9d1LV878oLm/view?usp=sharing
+
 
 2. Training Classifier MR Parser
 ================================
@@ -95,6 +104,9 @@ There will be multiple checkpoints in this directory.
 The best model is specified in the ckpt.metadata.json, in the
 "optimal_checkpoint" field.
 
+To download the classifiers used in the paper, download this link:
+    https://drive.google.com/file/d/1XTrVdVQ_vKrXEt83qf0m3NfVedRf1ifb/view?usp=sharing
+
 
 3. Generate Samples
 ===================
@@ -104,6 +116,9 @@ To generate the samples using the base models and MR parsers run:
 >> bash generate_samples.sh
 
 Generated samples can be found in the samples directory.
+
+To download the samples used in the paper, download this link:
+    https://drive.google.com/file/d/1qb-5BvlOTqstXn2yyNJwT7AqlUj2bkC2/view?usp=sharing
 
 
 4. Train Augmented Generators
@@ -123,4 +138,8 @@ generators in
 There will be multiple checkpoints in these directory.
 The best model is specified in the ckpt.metadata.json, in the
 "optimal_checkpoint" field.
+
+To download the augmented generators used in the paper, download this link:
+    https://drive.google.com/file/d/1hQpRR3VC1w8gNjlViOuLZGAukEHkR6Ij/view?usp=sharing
+
 
